@@ -13,8 +13,8 @@ export const About = () => {
   };
 
   return (
-    <section id="about" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id="about" className="py-16 md:py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Empowering brands through 
@@ -22,7 +22,7 @@ export const About = () => {
           </h2>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center px-2 md:px-0">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
               I'm Bhoomika Patel — a full-stack developer with a strong focus on building web solutions that align design with technology. My work spans from business websites and e-commerce stores to full-scale SaaS platforms and personal branding tools.

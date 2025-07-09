@@ -11,15 +11,13 @@ export const Footer = () => {
             Full-stack developer and SaaS builder
           </p>
           
-          <div className="flex justify-center items-center gap-2 text-gray-400">
-            <span>Made with</span>
-            <Heart className="text-red-500 w-5 h-5 fill-current" />
-            <span>using React & Tailwind CSS</span>
+          <div className="flex justify-center items-center text-gray-400">
+            <span>Dev by Sandesigns</span>
           </div>
           
           <div className="mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-400">
-              © 2024 Bhoomika Patel. All rights reserved.
+              © 2025 Bhoomika Patel. All rights reserved.
             </p>
           </div>
         </div>
