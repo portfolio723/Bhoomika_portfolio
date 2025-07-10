@@ -1,15 +1,18 @@
 import React from 'react';
-import { Check } from 'lucide-react';
+import { Check, Plus } from 'lucide-react';
 
 const pricingPlans = [
   {
     name: "Starter Website",
     price: "$750 – $1,500",
     features: [
-      "3–5 Responsive Pages",
-      "Mobile-first Design",
-      "Basic SEO Optimization",
-      "Contact Form Integration"
+      "3 to 5 fully responsive pages",
+      "Designed with mobile-first approach",
+      "Contact form integration",
+      "Basic on-page SEO",
+      "Optimized for fast loading and performance",
+      "Clean, professional design suited for brand identity",
+      "Basic privacy policy and terms (if required)"
     ],
     popular: false
   },
@@ -17,10 +20,14 @@ const pricingPlans = [
     name: "Business Pro Website",
     price: "$1,500 – $2,800",
     features: [
-      "Up to 10 Custom Pages",
-      "Blog Setup & Analytics",
-      "CTA (WhatsApp, Email, Maps)",
-      "On-Page SEO"
+      "Up to 10 web pages including blog setup",
+      "Integrated Google Maps for physical locations",
+      "WhatsApp or CTA button for quick contact",
+      "Google Analytics or similar tools setup",
+      "Enhanced on-page SEO",
+      "Mobile and tablet optimized design",
+      "Custom forms (contact, inquiry, newsletter)",
+      "Professional, scalable layout for business growth"
     ],
     popular: true
   },
@@ -28,10 +35,15 @@ const pricingPlans = [
     name: "E-Commerce Store",
     price: "$2,500 – $5,000",
     features: [
-      "Shopify/WooCommerce Setup",
-      "Payment & Shipping Integration",
-      "10–30 Products",
-      "Coupon & Checkout Optimization"
+      "Shopify or WooCommerce platform setup",
+      "10 to 30 product listings with descriptions and images",
+      "Secure payment gateway integration (PayPal, Stripe, etc.)",
+      "Shipping methods and zone configuration",
+      "Discount code functionality and promo banner setup",
+      "SEO for products and categories",
+      "Mobile-optimized checkout process",
+      "Optional blog/news section for marketing",
+      "Inventory and order management setup"
     ],
     popular: false
   },
@@ -39,10 +51,14 @@ const pricingPlans = [
     name: "Landing Page Funnel",
     price: "$600 – $1,200",
     features: [
-      "High-Conversion Page",
-      "Lead Capture Form",
-      "CTA + Chat Button",
-      "Basic Analytics"
+      "Single-page design focused on conversion",
+      "Lead capture form (connected to email or CRM)",
+      "WhatsApp/chat button integration",
+      "Basic analytics (Google Tag Manager, Facebook Pixel)",
+      "Clear call-to-action buttons (book now, contact, subscribe)",
+      "Fast-loading with minimal distractions",
+      "Optimized for mobile and desktop ads",
+      "Ideal for marketing campaigns or one-time offers"
     ],
     popular: false
   },
@@ -50,10 +66,15 @@ const pricingPlans = [
     name: "SaaS MVP Build",
     price: "$6,000 – $11,000",
     features: [
-      "Full Login/Auth System",
-      "Admin Dashboard & CRM",
-      "Scalable Backend (Node/Supabase)",
-      "Onboarding Workflows"
+      "Custom-built web application (MVP-level)",
+      "Secure user authentication and login system",
+      "Onboarding flow for new users",
+      "Main dashboard with core functionalities",
+      "Admin panel for backend management",
+      "Scalable backend architecture",
+      "Responsive UI for mobile and desktop",
+      "Optional integration of APIs (e.g., Stripe, OpenAI, Mailchimp)",
+      "Ideal for tech startups testing product-market fit"
     ],
     popular: false
   },
@@ -111,8 +132,10 @@ export const Pricing = () => {
               
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{plan.name}</h3>
-                <div className="text-3xl font-bold text-violet-600 mb-2">{plan.price}</div>
-                <p className="text-gray-600 text-sm">CAD</p>
+                <div className="text-3xl font-bold text-violet-600 mb-2 flex items-center justify-center gap-1">
+                  {plan.price}
+                  <Plus className="w-5 h-5" />
+                </div>
               </div>
               
               <ul className="space-y-3 mb-8">

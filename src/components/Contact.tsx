@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Calendar, MapPin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Calendar, MapPin, Upload } from 'lucide-react';
 
 export const Contact = () => {
   const scrollToWork = () => {
@@ -25,49 +25,171 @@ export const Contact = () => {
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12">
-          <div className="space-y-8">
-            <div className="flex items-center gap-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors duration-300">
-              <Mail className="text-violet-600 w-8 h-8" />
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Project Inquiry Form</h3>
+            <form className="space-y-6">
               <div>
-                <h3 className="font-semibold text-gray-900">Email</h3>
-                <a href="mailto:itsbhoomikapatel@gmail.com" className="text-gray-600 hover:text-violet-600 transition-colors">
-                  itsbhoomikapatel@gmail.com
-                </a>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  Name *
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="Your full name"
+                />
               </div>
-            </div>
-            
-            <div className="flex items-center gap-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors duration-300">
-              <Phone className="text-violet-600 w-8 h-8" />
+              
               <div>
-                <h3 className="font-semibold text-gray-900">Phone</h3>
-                <a href="tel:+13683993448" className="text-gray-600 hover:text-violet-600 transition-colors">
-                  +1 (368) 399-3448
-                </a>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  Email *
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="your.email@example.com"
+                />
               </div>
-            </div>
-            
-            <div className="flex items-center gap-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors duration-300">
-              <Linkedin className="text-violet-600 w-8 h-8" />
+              
               <div>
-                <h3 className="font-semibold text-gray-900">LinkedIn</h3>
-                <a href="https://www.linkedin.com/in/bpmrc/" className="text-gray-600 hover:text-violet-600 transition-colors">
-                  linkedin.com/in/bpmrc
-                </a>
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  Contact Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="+1 (555) 123-4567"
+                />
               </div>
-            </div>
-            
-            <div className="flex items-center gap-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors duration-300">
-              <Calendar className="text-violet-600 w-8 h-8" />
+              
               <div>
-                <h3 className="font-semibold text-gray-900">Schedule a Call</h3>
-                <a href="https://calendly.com/d/cs2w-gqs-qg2/30-minute-meeting" className="text-gray-600 hover:text-violet-600 transition-colors">
-                  Book a 30-minute meeting
+                <label htmlFor="project-details" className="block text-sm font-medium text-gray-700 mb-2">
+                  Project Details *
+                </label>
+                <textarea
+                  id="project-details"
+                  name="project-details"
+                  required
+                  rows={4}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="Describe your project requirements, goals, and any specific features you need..."
+                ></textarea>
+              </div>
+              
+              <div>
+                <label htmlFor="file-upload" className="block text-sm font-medium text-gray-700 mb-2">
+                  Project Files (PDF or any file)
+                </label>
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-violet-600 transition-colors">
+                  <Upload className="mx-auto h-12 w-12 text-gray-400" />
+                  <div className="mt-4">
+                    <label htmlFor="file-upload" className="cursor-pointer">
+                      <span className="mt-2 block text-sm font-medium text-gray-900">
+                        Drop files here or click to upload
+                      </span>
+                      <input id="file-upload" name="file-upload" type="file" className="sr-only" multiple />
+                    </label>
+                  </div>
+                  <p className="mt-1 text-xs text-gray-500">PDF, DOC, PNG, JPG up to 10MB</p>
+                </div>
+              </div>
+              
+              <div>
+                <label htmlFor="reference-link" className="block text-sm font-medium text-gray-700 mb-2">
+                  Reference Link
+                </label>
+                <input
+                  type="url"
+                  id="reference-link"
+                  name="reference-link"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="https://example.com (inspiration or reference)"
+                />
+              </div>
+              
+              <div>
+                <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
+                  Estimated Budget
+                </label>
+                <input
+                  type="text"
+                  id="budget"
+                  name="budget"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent"
+                  placeholder="$1,000 - $5,000 or your budget range"
+                />
+              </div>
+              
+              <button
+                type="submit"
+                className="w-full bg-violet-600 text-white py-4 px-6 rounded-lg font-medium hover:bg-violet-700 transition-colors duration-300"
+              >
+                Submit Project Inquiry
+              </button>
+            </form>
+            
+            {/* Social Icons Row */}
+            <div className="mt-8 pt-8 border-t border-gray-200">
+              <div className="flex justify-center gap-6">
+                <a
+                  href="mailto:itsbhoomikapatel@gmail.com"
+                  className="group relative p-3 bg-gray-100 rounded-full hover:bg-violet-100 transition-colors duration-300"
+                  title="Email"
+                >
+                  <Mail className="w-6 h-6 text-gray-600 group-hover:text-violet-600" />
+                  <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    Email
+                  </span>
+                </a>
+                
+                <a
+                  href="tel:+13683993448"
+                  className="group relative p-3 bg-gray-100 rounded-full hover:bg-violet-100 transition-colors duration-300"
+                  title="Phone"
+                >
+                  <Phone className="w-6 h-6 text-gray-600 group-hover:text-violet-600" />
+                  <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    Phone
+                  </span>
+                </a>
+                
+                <a
+                  href="https://www.linkedin.com/in/bpmrc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative p-3 bg-gray-100 rounded-full hover:bg-violet-100 transition-colors duration-300"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-6 h-6 text-gray-600 group-hover:text-violet-600" />
+                  <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    LinkedIn
+                  </span>
+                </a>
+                
+                <a
+                  href="https://calendly.com/d/cs2w-gqs-qg2/30-minute-meeting"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative p-3 bg-gray-100 rounded-full hover:bg-violet-100 transition-colors duration-300"
+                  title="Calendly"
+                >
+                  <Calendar className="w-6 h-6 text-gray-600 group-hover:text-violet-600" />
+                  <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    Calendly
+                  </span>
                 </a>
               </div>
             </div>
           </div>
           
-          <div className="bg-gradient-to-br from-violet-600 to-rose-600 rounded-2xl p-8 text-white">
+          <div className="bg-violet-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-6">Ready to start your project?</h3>
             <p className="text-violet-100 mb-8">
               Let's discuss how we can bring your vision to life with modern web technologies and beautiful design.

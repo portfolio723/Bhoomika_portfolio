@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const navItems = [
     { id: 'home', label: 'Home' },
@@ -54,6 +55,12 @@ export const Navigation = () => {
     setIsOpen(false);
   };
 
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    // You can implement actual dark mode functionality here
+    document.documentElement.classList.toggle('dark');
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4">
@@ -79,6 +86,13 @@ export const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <button
+              onClick={toggleDarkMode}
+              className="p-2 text-gray-700 hover:text-violet-600 transition-colors duration-300"
+              title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            >
+              {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
             <button
               onClick={scrollToContact}
               className="bg-violet-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-violet-700 transition-colors duration-300"
@@ -115,6 +129,12 @@ export const Navigation = () => {
                   {item.label}
                 </button>
               ))}
+              <button
+                onClick={toggleDarkMode}
+                className="block w-full text-left px-3 py-2 text-gray-700 hover:text-violet-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
+              >
+                {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+              </button>
               <button
                 onClick={scrollToContact}
                 className="block w-full text-left px-3 py-2 bg-violet-600 text-white rounded-md font-medium hover:bg-violet-700 transition-colors duration-300 mt-2"

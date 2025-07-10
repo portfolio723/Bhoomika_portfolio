@@ -1,17 +1,6 @@
 import React from 'react';
-import { Download, Users } from 'lucide-react';
 
 export const About = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }
-  };
-
   return (
     <section id="about" className="py-16 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
@@ -24,25 +13,25 @@ export const About = () => {
         
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center px-2 md:px-0">
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              I'm Bhoomika Patel — a full-stack developer with a strong focus on building web solutions that align design with technology. My work spans from business websites and e-commerce stores to full-scale SaaS platforms and personal branding tools.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Whether you're an early-stage founder or an established brand, I build platforms that scale beautifully — inside and out.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-violet-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-violet-700 transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2 justify-center">
-                <Download size={20} />
-                Download Resume
-              </button>
-              <button 
-                onClick={scrollToContact}
-                className="border-2 border-violet-600 text-violet-600 px-8 py-4 rounded-lg font-medium hover:bg-violet-50 transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2 justify-center"
-              >
-                <Users size={20} />
-                Hire Me
-              </button>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                I'm a <strong>Full-Stack Web Developer</strong> who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help <strong>startups, creators, and businesses</strong> launch fast, mobile-first, and conversion-optimized solutions — from <strong>responsive websites</strong> to <strong>scalable SaaS platforms</strong>, <strong>e-commerce stores</strong>, and <strong>personal branding pages</strong>.
+              </p>
+              
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Every project I build is driven by two core principles: <strong>clarity in design and precision in execution</strong>. I work with a powerful tech stack including <strong>React.js, Next.js, Framer, WordPress, Shopify, and Supabase</strong>. Whether it's:
+              </p>
+              
+              <ul className="text-lg text-gray-700 leading-relaxed mb-6 space-y-2">
+                <li>• A clean business website</li>
+                <li>• A feature-rich SaaS dashboard</li>
+                <li>• A sales-driven Shopify store</li>
+                <li>• Or a sleek personal portfolio</li>
+              </ul>
+              
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I deliver systems that are not only beautiful — but <strong>blazing-fast, SEO-friendly, and built to scale</strong>.
+              </p>
             </div>
           </div>
           
