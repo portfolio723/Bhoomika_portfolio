@@ -55,7 +55,7 @@ export const TechStack = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Tech <span className="text-violet-600 dark:text-violet-400"> Stack</span>
+            Tech<span className="text-violet-600 dark:text-violet-400"> Stack</span>
           </h2>
         </div>
         
