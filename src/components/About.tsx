@@ -15,11 +15,11 @@ export const About = () => {
           <div className="space-y-6">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                I'm a <strong>Full-Stack Web Developer</strong> who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help <strong>startups, creators, and businesses</strong> launch fast, mobile-first, and conversion-optimized solutions — from <strong>responsive websites</strong> to <strong>scalable SaaS platforms</strong>, <strong>e-commerce stores</strong>, and <strong>personal branding pages</strong>.
+                I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions — from responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Every project I build is driven by two core principles: <strong>clarity in design and precision in execution</strong>. I work with a powerful tech stack including <strong>React.js, Next.js, Framer, WordPress, Shopify, and Supabase</strong>. Whether it's:
+                Every project I build is driven by two core principles: clarity in design and precision in execution. I work with a powerful tech stack including React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it's:
               </p>
               
               <ul className="text-lg text-gray-700 leading-relaxed mb-6 space-y-2">
@@ -30,7 +30,7 @@ export const About = () => {
               </ul>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                I deliver systems that are not only beautiful — but <strong>blazing-fast, SEO-friendly, and built to scale</strong>.
+                I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
               </p>
             </div>
           </div>
