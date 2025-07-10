@@ -60,13 +60,27 @@ export const Contact = () => {
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   Contact Number
                 </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                  placeholder="+1 (555) 123-4567"
-                />
+                <div className="flex">
+                  <select className="px-3 py-3 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white">
+                    <option value="+1">🇺🇸 +1</option>
+                    <option value="+44">🇬🇧 +44</option>
+                    <option value="+91">🇮🇳 +91</option>
+                    <option value="+49">🇩🇪 +49</option>
+                    <option value="+33">🇫🇷 +33</option>
+                    <option value="+39">🇮🇹 +39</option>
+                    <option value="+82">🇰🇷 +82</option>
+                    <option value="+254">🇰🇪 +254</option>
+                    <option value="+264">🇳🇦 +264</option>
+                    <option value="+597">🇸🇷 +597</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    className="flex-1 px-4 py-3 border border-l-0 border-gray-300 dark:border-gray-600 rounded-r-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                    placeholder="(555) 123-4567"
+                  />
+                </div>
               </div>
               
               <div>
@@ -135,6 +149,36 @@ export const Contact = () => {
               </button>
             </form>
             
+            {/* Ready to start your project section moved here */}
+            <div className="mt-12 bg-violet-600 rounded-2xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-6">Ready to start your project?</h3>
+              <p className="text-violet-100 mb-8">
+                Let's discuss how we can bring your vision to life with modern web technologies and beautiful design.
+              </p>
+              
+              <div className="space-y-4">
+                <button 
+                  onClick={() => window.open('https://calendly.com/d/cs2w-gqs-qg2/30-minute-meeting', '_blank')}
+                  className="w-full bg-white text-violet-600 py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors duration-300"
+                >
+                  Schedule Discovery Call
+                </button>
+                <button 
+                  onClick={scrollToWork}
+                  className="w-full border-2 border-white text-white py-4 rounded-lg font-medium hover:bg-white hover:text-violet-600 transition-colors duration-300"
+                >
+                  View Portfolio
+                </button>
+              </div>
+              
+              <div className="mt-8 pt-8 border-t border-violet-400">
+                <div className="flex items-center gap-2 text-violet-100">
+                  <MapPin size={20} />
+                  <span>Based in Toronto, Canada</span>
+                </div>
+              </div>
+            </div>
+            
             {/* Social Icons Row */}
             <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
               <div className="flex justify-center gap-6">
@@ -189,31 +233,37 @@ export const Contact = () => {
             </div>
           </div>
           
-          <div className="bg-violet-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-6">Ready to start your project?</h3>
-            <p className="text-violet-100 dark:text-violet-200 mb-8">
-              Let's discuss how we can bring your vision to life with modern web technologies and beautiful design.
-            </p>
-            
-            <div className="space-y-4">
-              <button 
-                onClick={() => window.open('https://calendly.com/d/cs2w-gqs-qg2/30-minute-meeting', '_blank')}
-                className="w-full bg-white dark:bg-gray-100 text-violet-600 py-4 rounded-lg font-medium hover:bg-gray-50 dark:hover:bg-gray-200 transition-colors duration-300"
-              >
-                Schedule Discovery Call
-              </button>
-              <button 
-                onClick={scrollToWork}
-                className="w-full border-2 border-white text-white py-4 rounded-lg font-medium hover:bg-white hover:text-violet-600 transition-colors duration-300"
-              >
-                View Portfolio
-              </button>
-            </div>
-            
-            <div className="mt-8 pt-8 border-t border-violet-400 dark:border-violet-500">
-              <div className="flex items-center gap-2 text-violet-100 dark:text-violet-200">
-                <MapPin size={20} />
-                <span>Based in Toronto, Canada</span>
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Get in Touch</h3>
+            <div className="space-y-6">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-violet-100 dark:bg-violet-900/30 rounded-full flex items-center justify-center">
+                  <Mail className="w-6 h-6 text-violet-600 dark:text-violet-400" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900 dark:text-white">Email</p>
+                  <p className="text-gray-600 dark:text-gray-300">itsbhoomikapatel@gmail.com</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-violet-100 dark:bg-violet-900/30 rounded-full flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-violet-600 dark:text-violet-400" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900 dark:text-white">Phone</p>
+                  <p className="text-gray-600 dark:text-gray-300">+1 (368) 399-3448</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-violet-100 dark:bg-violet-900/30 rounded-full flex items-center justify-center">
+                  <MapPin className="w-6 h-6 text-violet-600 dark:text-violet-400" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900 dark:text-white">Location</p>
+                  <p className="text-gray-600 dark:text-gray-300">Toronto, Canada</p>
+                </div>
               </div>
             </div>
           </div>

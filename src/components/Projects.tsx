@@ -3,56 +3,56 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: "🎮 MovieVault – Movie & TV Show Explorer",
+    title: "MovieVault – Movie & TV Show Explorer",
     description: "Browse thousands of movies and TV shows. Includes search, rating, filtering, and watchlist features.",
     image: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://movievault.io/",
     type: "Entertainment Web App"
   },
   {
-    title: "📝 ValueFile – Resume + Networking Tool",
+    title: "ValueFile – Resume + Networking Tool",
     description: "Dynamic consultant-focused resume builder with version toggles, export, and custom layout logic.",
     image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://www.vl-file.com/",
     type: "Resume Optimization SaaS"
   },
   {
-    title: "🡤 ClientManager.io – Client SaaS Platform",
+    title: "ClientManager.io – Client SaaS Platform",
     description: "Web-based CRM for project onboarding, task management, and client invoicing. Built for ease and speed.",
     image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://www.clientmanager.io/",
     type: "SaaS CRM Tool"
   },
   {
-    title: "🌸 The Great Perfumes – Perfume eCommerce",
+    title: "The Great Perfumes – Perfume eCommerce",
     description: "Modern storefront for 50+ perfume products with cart, shipping, coupon, and secure payment.",
     image: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://thegreatperfumes.nl/",
     type: "E-commerce Website"
   },
   {
-    title: "🍚 My Cookies & Cream – Bakery Business Website",
+    title: "My Cookies & Cream – Bakery Business Website",
     description: "3-page website for a bakery brand. Includes photo gallery, location integration, and contact form.",
     image: "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://mycookiesandcream.com/",
     type: "Static Business Website"
   },
   {
-    title: "🎒 Elevate Chairs – Shopify Store",
+    title: "Elevate Chairs – Shopify Store",
     description: "Ergonomic chair eCommerce store with optimized product catalog, discount campaigns, and fast checkout.",
     image: "https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://elevatechairs.com/",
     type: "E-commerce Website"
   },
   {
-    title: "🍄 Thera Hair – Shopify Haircare Store",
+    title: "Thera Hair – Shopify Haircare Store",
     description: "Haircare brand built on Shopify with branded UI, product reviews, bundles, and customer-first navigation.",
     image: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://therahair.com/",
     type: "Shopify Storefront"
   },
   {
-    title: "💅 Jaysha – Fashion & Beauty Shopify Store",
+    title: "Jaysha – Fashion & Beauty Shopify Store",
     description: "Trendy fashion and beauty store built with a bold layout, conversion-focused product sections, and email marketing integration.",
     image: "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://jaysha.us/",

@@ -12,13 +12,11 @@ const techStack = [
   { name: 'React.js', logo: 'https://img.icons8.com/color/48/react-native.png' },
   { name: 'Next.js', logo: 'https://img.icons8.com/color/48/nextjs.png' },
   { name: 'Webflow', logo: 'https://img.icons8.com/color/48/webflow.png' },
-  { name: 'Framer', logo: 'https://img.icons8.com/color/48/framer.png' },
   { name: 'WordPress', logo: 'https://img.icons8.com/color/48/wordpress.png' },
   { name: 'Shopify', logo: 'https://img.icons8.com/color/48/shopify.png' },
   { name: 'Stripe', logo: 'https://img.icons8.com/color/48/stripe.png' },
   { name: 'PayPal', logo: 'https://img.icons8.com/color/48/paypal.png' },
   { name: 'Google Analytics', logo: 'https://img.icons8.com/color/48/google-analytics.png' },
-  { name: 'Mailchimp', logo: 'https://img.icons8.com/color/48/mailchimp.png' },
   { name: 'Netlify', logo: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png' },
   { name: 'Vercel', logo: 'https://img.icons8.com/color/48/vercel.png' },
   { name: 'Node.js', logo: 'https://img.icons8.com/color/48/nodejs.png' },
@@ -57,7 +55,7 @@ export const TechStack = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            <span className="text-violet-600 dark:text-violet-400">Tech Stack</span>
+            My <span className="text-violet-600 dark:text-violet-400">Tech Stack</span>
           </h2>
         </div>
         
