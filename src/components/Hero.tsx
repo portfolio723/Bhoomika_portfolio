@@ -54,6 +54,8 @@ export const Hero = () => {
               Schedule a Call
             </button>
           </div>
+          
+          <div className="mt-12 lg:mt-16">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
               <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
                 <MapPin className="text-violet-600" size={24} />
@@ -70,9 +72,6 @@ export const Hero = () => {
                 Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea
               </p>
             </div>
-            <p className="text-gray-600 mt-4 text-center">
-              Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea
-            </p>
           </div>
         </div>
       </div>
