@@ -12,7 +12,8 @@ const projects = [
   {
     title: "ValueFile – Resume + Networking Tool",
     description: "Dynamic consultant-focused resume builder with version toggles, export, and custom layout logic.",
-    image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://www.vl-file.com/static/media/auth-img1.b0dfe698c812d36bfe81.png?
+      auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://www.vl-file.com/",
     type: "Resume Optimization SaaS"
   },
