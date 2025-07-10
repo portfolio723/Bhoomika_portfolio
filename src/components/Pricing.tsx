@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Check, Plus } from 'lucide-react';
 
 const pricingPlans = [
