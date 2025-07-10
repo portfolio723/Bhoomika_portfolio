@@ -30,13 +30,13 @@ export const Hero = () => {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 md:gap-12 items-center relative z-10">
         {/* Left Content */}
         <div className="text-center lg:text-left px-2 md:px-0">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Hi, I'm <span className="text-violet-600">Bhoomika</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+            Hi, I'm <span className="text-violet-600 dark:text-violet-400">Bhoomika</span>
           </h1>
-          <p className="text-xl md:text-2xl font-medium text-gray-700 mb-6">
+          <p className="text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-300 mb-6">
             Full-stack developer and SaaS builder crafting scalable, beautiful web experiences.
           </p>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl">
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
             Blending design with backend logic to deliver sites and platforms that are lightning-fast, SEO-smart, and beautifully responsive.
           </p>
           
@@ -49,7 +49,7 @@ export const Hero = () => {
             </button>
             <button 
               onClick={scrollToContact}
-              className="border-2 border-violet-600 text-violet-600 px-8 py-4 rounded-lg font-medium text-lg hover:bg-violet-50 transform hover:-translate-y-1 transition-all duration-300"
+              className="border-2 border-violet-600 dark:border-violet-400 text-violet-600 dark:text-violet-400 px-8 py-4 rounded-lg font-medium text-lg hover:bg-violet-50 dark:hover:bg-violet-900/20 transform hover:-translate-y-1 transition-all duration-300"
             >
               Schedule a Call
             </button>
@@ -58,19 +58,19 @@ export const Hero = () => {
 
         {/* Right Content - Global Client Network */}
         <div className="flex justify-center lg:justify-end">
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl max-w-md w-full">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
-              <MapPin className="text-violet-600" size={24} />
+          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl max-w-lg w-full">
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center gap-2">
+              <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
               Global Client Network
             </h3>
-            <div className="relative h-64 rounded-lg overflow-hidden">
+            <div className="relative h-80 rounded-lg overflow-hidden">
               <img 
                 src="/image 1 copy.jpg" 
                 alt="Global Client Network Map" 
                 className="w-full h-full object-cover"
               />
             </div>
-            <p className="text-gray-600 mt-4 text-center">
+            <p className="text-gray-600 dark:text-gray-300 mt-4 text-center">
               Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea
             </p>
           </div>

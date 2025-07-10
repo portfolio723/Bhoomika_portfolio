@@ -42,13 +42,13 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Services I <span className="text-violet-600">Offer</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            Services I <span className="text-violet-600 dark:text-violet-400">Offer</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             From idea to launch, I provide end-to-end solutions for your digital needs
           </p>
         </div>
@@ -57,7 +57,7 @@ export const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
+              className="bg-white dark:bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
             >
               <div className={`w-16 h-16 rounded-lg ${service.color === 'text-blue-600' ? 'bg-blue-100' : 
                 service.color === 'text-green-600' ? 'bg-green-100' :
@@ -67,8 +67,8 @@ export const Services = () => {
               } flex items-center justify-center mb-6`}>
                 <service.icon className={`${service.color} w-8 h-8`} />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">{service.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300">{service.description}</p>
             </div>
           ))}
         </div>
