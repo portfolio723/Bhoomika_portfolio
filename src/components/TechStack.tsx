@@ -1,15 +1,31 @@
 import React, { useEffect, useRef } from 'react';
 
 const techStack = [
-  { name: 'React', logo: '⚛️' },
-  { name: 'Supabase', logo: '🗃️' },
-  { name: 'Shopify', logo: '🛍️' },
-  { name: 'Framer', logo: '🎨' },
-  { name: 'WordPress', logo: '📝' },
-  { name: 'Figma', logo: '🎯' },
-  { name: 'Notion', logo: '📋' },
-  { name: 'Tailwind', logo: '🎪' },
-  { name: 'Klaviyo', logo: '📧' }
+  { name: 'Figma', logo: 'https://img.icons8.com/color/48/figma--v1.png' },
+  { name: 'Canva', logo: 'https://img.icons8.com/color/48/canva.png' },
+  { name: 'Adobe XD', logo: 'https://img.icons8.com/color/48/adobe-xd--v1.png' },
+  { name: 'HTML5', logo: 'https://img.icons8.com/color/48/html-5--v1.png' },
+  { name: 'CSS3', logo: 'https://img.icons8.com/color/48/css3.png' },
+  { name: 'JavaScript', logo: 'https://img.icons8.com/color/48/javascript--v1.png' },
+  { name: 'Bootstrap', logo: 'https://img.icons8.com/color/48/bootstrap.png' },
+  { name: 'Tailwind CSS', logo: 'https://img.icons8.com/color/48/tailwindcss.png' },
+  { name: 'React.js', logo: 'https://img.icons8.com/color/48/react-native.png' },
+  { name: 'Next.js', logo: 'https://img.icons8.com/color/48/nextjs.png' },
+  { name: 'Webflow', logo: 'https://img.icons8.com/color/48/webflow.png' },
+  { name: 'Framer', logo: 'https://img.icons8.com/color/48/framer.png' },
+  { name: 'WordPress', logo: 'https://img.icons8.com/color/48/wordpress.png' },
+  { name: 'Shopify', logo: 'https://img.icons8.com/color/48/shopify.png' },
+  { name: 'Stripe', logo: 'https://img.icons8.com/color/48/stripe.png' },
+  { name: 'PayPal', logo: 'https://img.icons8.com/color/48/paypal.png' },
+  { name: 'Google Analytics', logo: 'https://img.icons8.com/color/48/google-analytics.png' },
+  { name: 'Mailchimp', logo: 'https://img.icons8.com/color/48/mailchimp.png' },
+  { name: 'Netlify', logo: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png' },
+  { name: 'Vercel', logo: 'https://img.icons8.com/color/48/vercel.png' },
+  { name: 'Node.js', logo: 'https://img.icons8.com/color/48/nodejs.png' },
+  { name: 'MongoDB', logo: 'https://img.icons8.com/color/48/mongodb.png' },
+  { name: 'PostgreSQL', logo: 'https://img.icons8.com/color/48/postgreesql.png' },
+  { name: 'Firebase', logo: 'https://img.icons8.com/color/48/firebase.png' },
+  { name: 'Supabase', logo: 'https://img.icons8.com/color/48/supabase.png' }
 ];
 
 export const TechStack = () => {
@@ -37,12 +53,11 @@ export const TechStack = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            The tools I love and 
-            <span className="text-violet-600"> integrate with frequently</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <span className="text-violet-600 dark:text-violet-400">Tech Stack</span>
           </h2>
         </div>
         
@@ -56,24 +71,24 @@ export const TechStack = () => {
             {techStack.map((tech, index) => (
               <div
                 key={`first-${index}`}
-                className="flex flex-col items-center justify-center p-6 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-110 group flex-shrink-0 min-w-[120px]"
+                className="flex flex-col items-center justify-center p-6 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 group flex-shrink-0 min-w-[120px]"
               >
-                <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
-                  {tech.logo}
+                <div className="mb-3 group-hover:scale-125 transition-transform duration-300">
+                  <img src={tech.logo} alt={tech.name} className="w-12 h-12" />
                 </div>
-                <span className="text-sm font-medium text-gray-700 text-center">{tech.name}</span>
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">{tech.name}</span>
               </div>
             ))}
             {/* Duplicate set for infinite scroll */}
             {techStack.map((tech, index) => (
               <div
                 key={`second-${index}`}
-                className="flex flex-col items-center justify-center p-6 rounded-xl hover:bg-gray-50 transition-all duration-300 transform hover:scale-110 group flex-shrink-0 min-w-[120px]"
+                className="flex flex-col items-center justify-center p-6 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 group flex-shrink-0 min-w-[120px]"
               >
-                <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
-                  {tech.logo}
+                <div className="mb-3 group-hover:scale-125 transition-transform duration-300">
+                  <img src={tech.logo} alt={tech.name} className="w-12 h-12" />
                 </div>
-                <span className="text-sm font-medium text-gray-700 text-center">{tech.name}</span>
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">{tech.name}</span>
               </div>
             ))}
           </div>

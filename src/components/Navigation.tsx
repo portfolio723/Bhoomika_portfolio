@@ -4,7 +4,13 @@ import { Menu, X, Sun, Moon } from 'lucide-react';
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('darkMode') === 'true' || 
+             (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    return false;
+  });
 
   const navItems = [
     { id: 'home', label: 'Home' },
@@ -56,18 +62,32 @@ export const Navigation = () => {
   };
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    // You can implement actual dark mode functionality here
-    document.documentElement.classList.toggle('dark');
+    const newDarkMode = !isDarkMode;
+    setIsDarkMode(newDarkMode);
+    localStorage.setItem('darkMode', newDarkMode.toString());
+    
+    if (newDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   };
 
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDarkMode]);
+
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-sm z-50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div 
-            className="text-2xl font-bold text-violet-600 cursor-pointer"
+            className="text-2xl font-bold text-violet-600 dark:text-violet-400 cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
             Bhoomika
@@ -79,8 +99,8 @@ export const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`font-medium transition-colors duration-300 hover:text-violet-600 ${
-                  activeSection === item.id ? 'text-violet-600' : 'text-gray-700'
+                className={`font-medium transition-colors duration-300 hover:text-violet-600 dark:hover:text-violet-400 ${
+                  activeSection === item.id ? 'text-violet-600 dark:text-violet-400' : 'text-gray-700 dark:text-gray-300'
                 }`}
               >
                 {item.label}
@@ -88,7 +108,7 @@ export const Navigation = () => {
             ))}
             <button
               onClick={toggleDarkMode}
-              className="p-2 text-gray-700 hover:text-violet-600 transition-colors duration-300"
+              className="p-2 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300"
               title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -114,7 +134,7 @@ export const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
+          <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button
@@ -122,8 +142,8 @@ export const Navigation = () => {
                   onClick={() => scrollToSection(item.id)}
                   className={`block w-full text-left px-3 py-2 rounded-md font-medium transition-colors duration-300 ${
                     activeSection === item.id
-                      ? 'text-violet-600 bg-violet-50'
-                      : 'text-gray-700 hover:text-violet-600 hover:bg-gray-50'
+                      ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/20'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-50 dark:hover:bg-gray-800'
                   }`}
                 >
                   {item.label}
@@ -131,7 +151,7 @@ export const Navigation = () => {
               ))}
               <button
                 onClick={toggleDarkMode}
-                className="block w-full text-left px-3 py-2 text-gray-700 hover:text-violet-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
+                className="block w-full text-left px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md font-medium transition-colors duration-300"
               >
                 {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
               </button>
