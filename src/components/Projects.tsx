@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Elevate Chairs – Shopify Store",
     description: "Ergonomic chair eCommerce store with optimized product catalog, discount campaigns, and fast checkout.",
-    image: "https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://elevatechairs.com/cdn/shop/files/2.jpg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://elevatechairs.com/",
     type: "E-commerce Website"
   },
