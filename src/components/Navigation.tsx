@@ -135,12 +135,12 @@ export const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="px-4 pt-4 pb-6 space-y-2">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`block w-full text-left px-3 py-2 rounded-md font-medium transition-colors duration-300 ${
+                  className={`block w-full text-left px-4 py-3 rounded-md font-medium transition-colors duration-300 text-base ${
                     activeSection === item.id
                       ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/20'
                       : 'text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-50 dark:hover:bg-gray-800'
@@ -151,13 +151,13 @@ export const Navigation = () => {
               ))}
               <button
                 onClick={toggleDarkMode}
-                className="block w-full text-left px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md font-medium transition-colors duration-300"
+                className="block w-full text-left px-4 py-3 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md font-medium transition-colors duration-300 text-base"
               >
                 {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
               </button>
               <button
                 onClick={scrollToContact}
-                className="block w-full text-left px-3 py-2 bg-violet-600 text-white rounded-md font-medium hover:bg-violet-700 transition-colors duration-300 mt-2"
+                className="block w-full text-left px-4 py-3 bg-violet-600 text-white rounded-md font-medium hover:bg-violet-700 transition-colors duration-300 mt-4 text-base"
               >
                 Contact
               </button>

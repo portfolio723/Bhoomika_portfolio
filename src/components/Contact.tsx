@@ -13,23 +13,23 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-12 md:py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
-      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+    <section id="contact" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white dark:bg-gray-900 transition-colors duration-300">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+        <div className="text-center mb-12 sm:mb-16 md:mb-20">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 md:mb-8">
             Let's <span className="text-violet-600 dark:text-violet-400">Connect</span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Whether you're ready to launch or just exploring ideas, I'd love to connect.
           </p>
         </div>
         
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 md:p-8 shadow-lg">
-            <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-6">Project Inquiry Form</h3>
-            <form className="space-y-4 md:space-y-6">
+        <div className="w-full">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 sm:p-8 md:p-10 shadow-lg">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8">Project Inquiry Form</h3>
+            <form className="space-y-4 sm:space-y-6 md:space-y-8">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="name" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Name *
                 </label>
                 <input
@@ -37,13 +37,13 @@ export const Contact = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base"
+                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
                   placeholder="Your full name"
                 />
               </div>
               
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="email" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Email *
                 </label>
                 <input
@@ -51,17 +51,17 @@ export const Contact = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base"
+                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
                   placeholder="your.email@example.com"
                 />
               </div>
               
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="phone" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Contact Number
                 </label>
                 <div className="flex">
-                  <select className="px-2 md:px-3 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base max-h-40 overflow-y-auto">
+                  <select className="px-2 sm:px-3 md:px-4 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg max-h-40 sm:max-h-48 overflow-y-auto">
                     <option value="+93">🇦🇫 +93 Afghanistan</option>
                     <option value="+355">🇦🇱 +355 Albania</option>
                     <option value="+213">🇩🇿 +213 Algeria</option>
@@ -270,73 +270,73 @@ export const Contact = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="flex-1 px-3 md:px-4 py-2 md:py-3 border border-l-0 border-gray-300 dark:border-gray-600 rounded-r-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base"
+                    className="flex-1 px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-l-0 border-gray-300 dark:border-gray-600 rounded-r-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
                     placeholder="(555) 123-4567"
                   />
                 </div>
               </div>
               
               <div>
-                <label htmlFor="project-details" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="project-details" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Project Details *
                 </label>
                 <textarea
                   id="project-details"
                   name="project-details"
                   required
-                  rows={3}
-                  className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base resize-none"
+                  rows={4}
+                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg resize-none"
                   placeholder="Describe your project requirements, goals, and any specific features you need..."
                 ></textarea>
               </div>
               
               <div>
-                <label htmlFor="file-upload" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="file-upload" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Project Files (PDF or any file)
                 </label>
-                <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 md:p-6 text-center hover:border-violet-600 transition-colors bg-white dark:bg-gray-700">
-                  <Upload className="mx-auto h-12 w-12 text-gray-400 dark:text-gray-500" />
-                  <div className="mt-4">
+                <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 sm:p-6 md:p-8 text-center hover:border-violet-600 transition-colors bg-white dark:bg-gray-700">
+                  <Upload className="mx-auto h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14 text-gray-400 dark:text-gray-500" />
+                  <div className="mt-3 sm:mt-4 md:mt-5">
                     <label htmlFor="file-upload" className="cursor-pointer">
-                      <span className="mt-2 block text-sm font-medium text-gray-900 dark:text-white text-center">
+                      <span className="mt-2 sm:mt-3 block text-sm sm:text-base font-medium text-gray-900 dark:text-white text-center">
                         Drop files here or click to upload
                       </span>
                       <input id="file-upload" name="file-upload" type="file" className="sr-only" multiple />
                     </label>
                   </div>
-                  <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">PDF, DOC, PNG, JPG up to 10MB</p>
+                  <p className="mt-2 text-xs sm:text-sm text-gray-500 dark:text-gray-400">PDF, DOC, PNG, JPG up to 10MB</p>
                 </div>
               </div>
               
               <div>
-                <label htmlFor="reference-link" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="reference-link" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Reference Link
                 </label>
                 <input
                   type="url"
                   id="reference-link"
                   name="reference-link"
-                  className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base"
+                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
                   placeholder="https://example.com (inspiration or reference)"
                 />
               </div>
               
               <div>
-                <label htmlFor="budget" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="budget" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Estimated Budget
                 </label>
                 <input
                   type="text"
                   id="budget"
                   name="budget"
-                  className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm md:text-base"
+                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
                   placeholder="$1,000 - $5,000 or your budget range"
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full bg-violet-600 text-white py-3 md:py-4 px-6 rounded-lg font-medium hover:bg-violet-700 transition-colors duration-300 text-sm md:text-base"
+                className="w-full bg-violet-600 text-white py-4 sm:py-5 md:py-6 px-6 sm:px-8 rounded-lg font-medium hover:bg-violet-700 transition-colors duration-300 text-base sm:text-lg md:text-xl"
               >
                 Submit Project Inquiry
               </button>
@@ -344,26 +344,26 @@ export const Contact = () => {
           </div>
           
           {/* Social Icons Row */}
-          <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
-            <div className="flex justify-center gap-4 md:gap-6">
+          <div className="mt-8 sm:mt-10 pt-8 sm:pt-10 border-t border-gray-200 dark:border-gray-700">
+            <div className="flex justify-center gap-4 sm:gap-6 md:gap-8">
               <a
                 href="mailto:itsbhoomikapatel@gmail.com"
-                className="group relative p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
+                className="group relative p-3 sm:p-4 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
                 title="Email"
               >
-                <Mail className="w-5 h-5 md:w-6 md:h-6 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
-                <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                <Mail className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
+                <span className="absolute -top-10 sm:-top-12 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 sm:px-3 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                   Email
                 </span>
               </a>
               
               <a
                 href="tel:+13683993448"
-                className="group relative p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
+                className="group relative p-3 sm:p-4 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
                 title="Phone"
               >
-                <Phone className="w-5 h-5 md:w-6 md:h-6 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
-                <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                <Phone className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
+                <span className="absolute -top-10 sm:-top-12 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 sm:px-3 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                   Phone
                 </span>
               </a>
@@ -372,11 +372,11 @@ export const Contact = () => {
                 href="https://www.linkedin.com/in/bpmrc/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
+                className="group relative p-3 sm:p-4 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
                 title="LinkedIn"
               >
-                <Linkedin className="w-5 h-5 md:w-6 md:h-6 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
-                <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
+                <span className="absolute -top-10 sm:-top-12 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 sm:px-3 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                   LinkedIn
                 </span>
               </a>
@@ -385,11 +385,11 @@ export const Contact = () => {
                 href="https://calendly.com/d/cs2w-gqs-qg2/30-minute-meeting"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative p-3 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
+                className="group relative p-3 sm:p-4 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-violet-100 dark:hover:bg-violet-900/20 transition-colors duration-300"
                 title="Calendly"
               >
-                <Calendar className="w-5 h-5 md:w-6 md:h-6 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
-                <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                <Calendar className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400" />
+                <span className="absolute -top-10 sm:-top-12 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-2 sm:px-3 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                   Calendly
                 </span>
               </a>
