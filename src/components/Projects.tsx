@@ -62,47 +62,47 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section id="work" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+    <section id="work" className="py-12 sm:py-16 md:py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300 w-full overflow-hidden">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 w-full">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 break-words px-2">
             Some of the projects I 
             <span className="text-violet-600 dark:text-violet-400"> loved building</span>
           </h2>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 w-full">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 group h-full flex flex-col"
+              className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 group h-full flex flex-col w-full"
             >
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-32 sm:h-36 md:h-40 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
               </div>
               
-              <div className="p-4 flex-1 flex flex-col">
+              <div className="p-3 sm:p-4 flex-1 flex flex-col w-full">
                 <div className="mb-2">
-                  <span className="text-xs font-medium text-violet-600 dark:text-violet-400 bg-violet-100 dark:bg-violet-900/30 px-2 py-1 rounded-full">
+                  <span className="text-xs font-medium text-violet-600 dark:text-violet-400 bg-violet-100 dark:bg-violet-900/30 px-2 py-1 rounded-full break-words">
                     {project.type}
                   </span>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">{project.title}</h3>
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 flex-1">{project.description}</p>
+                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-gray-900 dark:text-white mb-2 break-words">{project.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 flex-1 break-words">{project.description}</p>
                 
                 <div className="mt-auto">
                   <a 
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 font-medium text-sm"
+                    className="flex items-center gap-2 text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 font-medium text-xs sm:text-sm break-words"
                   >
-                    <ExternalLink size={16} />
+                    <ExternalLink size={14} className="sm:w-4 sm:h-4" />
                     Visit Live
                   </a>
                 </div>
