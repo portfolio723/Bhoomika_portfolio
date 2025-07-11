@@ -19,7 +19,7 @@ const projects = [
   {
     title: "ClientManager.io – Client SaaS Platform",
     description: "Web-based CRM for project onboarding, task management, and client invoicing. Built for ease and speed.",
-    image: "https://static.wixstatic.com/media/5d966b_114ea097494d4cfdb89fbb22e28cba11~mv2.png/v1/crop/x_0,y_2,w_2861,h_1617/fill/w_1100,h_620,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/client-portal-for-freelancers.png?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*VjmZvduliKrj4jR3fwsPzA.png?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://www.clientmanager.io/",
     type: "SaaS CRM Tool"
   },
