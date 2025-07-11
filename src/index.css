@@ -45,4 +45,43 @@ html {
   .text-gradient {
     @apply bg-gradient-to-r from-violet-600 to-rose-600 bg-clip-text text-transparent;
   }
+  
+  /* Mobile responsive fixes */
+  @media (max-width: 768px) {
+    .container {
+      @apply px-4;
+    }
+    
+    section {
+      @apply py-12;
+    }
+    
+    h1 {
+      @apply text-3xl;
+    }
+    
+    h2 {
+      @apply text-2xl md:text-3xl;
+    }
+    
+    .grid {
+      @apply gap-4;
+    }
+    
+    .space-y-6 > * + * {
+      @apply mt-4;
+    }
+    
+    .p-8 {
+      @apply p-4;
+    }
+    
+    .px-8 {
+      @apply px-4;
+    }
+    
+    .py-8 {
+      @apply py-4;
+    }
+  }
 }
