@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Thera Hair – Shopify Haircare Store",
     description: "Haircare brand built on Shopify with branded UI, product reviews, bundles, and customer-first navigation.",
-    image: "https://therahair.com/cdn/shop/files/therabrush_-_2025-04-09T023913.639_90b0cb1f-f5a5-4180-85fc-d5f2e9c7190d.png?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*10rvEQmzfJjuJcYKQs16MQ.png?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://therahair.com/",
     type: "Shopify Storefront"
   },
