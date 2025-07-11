@@ -26,7 +26,7 @@ const projects = [
   {
     title: "The Great Perfumes – Perfume eCommerce",
     description: "Modern storefront for 50+ perfume products with cart, shipping, coupon, and secure payment.",
-    image: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://thegreatperfumes.nl/wp-content/uploads/2023/08/Amber-Night-768x768.jpg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://thegreatperfumes.nl/",
     type: "E-commerce Website"
   },
