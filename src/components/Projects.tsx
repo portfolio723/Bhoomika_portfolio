@@ -54,7 +54,7 @@ const projects = [
   {
     title: "Jaysha – Fashion & Beauty Shopify Store",
     description: "Trendy fashion and beauty store built with a bold layout, conversion-focused product sections, and email marketing integration.",
-    image: "https://jaysha.us/images/about-1.jpg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*K1L8cqTaYIKJ9txO9o_G_A.png?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://jaysha.us/",
     type: "Shopify Store"
   }
