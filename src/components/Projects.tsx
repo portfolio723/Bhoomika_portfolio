@@ -33,7 +33,7 @@ const projects = [
   {
     title: "My Cookies & Cream – Bakery Business Website",
     description: "3-page website for a bakery brand. Includes photo gallery, location integration, and contact form.",
-    image: "https://thegreatperfumes.nl/wp-content/uploads/2023/08/Amber-Night-768x768.jpg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://mycookiesandcream.com/wp-content/uploads/2024/03/vecteezy_homemade-ice-cream-sandwich-with-cookies_26771306-1536x861.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://mycookiesandcream.com/",
     type: "Static Business Website"
   },
