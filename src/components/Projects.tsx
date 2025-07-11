@@ -5,7 +5,7 @@ const projects = [
   {
     title: "MovieVault – Movie & TV Show Explorer",
     description: "Browse thousands of movies and TV shows. Includes search, rating, filtering, and watchlist features.",
-    image: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*ogcZGfI4cnf9aKmJw_779w.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
     liveUrl: "https://movievault.io/",
     type: "Entertainment Web App"
   },
