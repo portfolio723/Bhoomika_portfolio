@@ -52,11 +52,11 @@ const testimonials = [
     avatar: "BA"
   }
   {
-    name: "Brian Alexanda2",
+    name: "Mikkyli",
     company: "Creative Agency",
     text: "First order exceeded expectations. Bhumika delivered early. Will use again! Early delivery, high-quality service.",
     rating: 5,
-    avatar: "BA"
+    avatar: "MK"
   }
 ];
 
