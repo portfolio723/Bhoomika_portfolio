@@ -3,11 +3,11 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Sirplusgamer",
     company: "TechStart Inc.",
-    text: "Bhoomika transformed our vision into a stunning, functional website. Her attention to detail and technical expertise exceeded our expectations.",
+    text: "Great guy to work with. Highly recommended.",
     rating: 5,
-    avatar: "SJ"
+    avatar: "SG"
   },
   {
     name: "Michael Chen",
