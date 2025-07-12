@@ -24,7 +24,7 @@ const testimonials = [
     avatar: "DC"
   }
   {
-    name: "Insp_Insights",
+    name: "Insp Insights",
     company: "Creative Agency",
     text: "Very fast delivery and as described. Easy transaction. Speedy delivery, smooth experience.",
     rating: 5,
