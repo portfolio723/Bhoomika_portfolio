@@ -29,7 +29,7 @@ const services = [
   {
     icon: FileText,
     title: "Landing Page Funnel",
-    description: "Resume builders and personal branding platforms",
+    description: "High-converting single-page sites with lead forms, chat integration, and analytics. Best for ads, creators, and coaches.",
     color: "text-rose-600"
   },
   {
