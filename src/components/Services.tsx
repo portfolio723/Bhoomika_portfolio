@@ -4,8 +4,8 @@ import { Globe, ShoppingCart, Zap, Database, FileText, Settings } from 'lucide-r
 const services = [
   {
     icon: Globe,
-    title: "Business Websites",
-    description: "Clean, SEO-optimized websites using WordPress or Framer",
+    title: "Starter Website",
+    description: "Responsive 3–5 page sites with contact form, SEO, and fast performance. Best for local businesses and solopreneurs.",
     color: "text-blue-600"
   },
   {
