@@ -71,7 +71,7 @@ export const Hero = () => {
               />
             </div>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 text-center leading-relaxed break-words">
-              Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea
+              Trusted by clients worldwide, I believe exceptional digital products are built through collaboration, trust, and attention to detail  and that’s exactly what I bring to every client relationship. 
             </p>
           </div>
         </div>
