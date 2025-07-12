@@ -54,7 +54,7 @@ const testimonials = [
   {
     name: "Mikkyli",
     company: "Creative Agency",
-    text: "First order exceeded expectations. Bhumika delivered early. Will use again! Early delivery, high-quality service.",
+    text: "Simply the best! Delivered beyond expectations. I’ll always come back!",
     rating: 5,
     avatar: "MK"
   }
