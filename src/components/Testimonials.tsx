@@ -51,6 +51,13 @@ const testimonials = [
     rating: 5,
     avatar: "BA"
   }
+  {
+    name: "Brian Alexanda2",
+    company: "Creative Agency",
+    text: "First order exceeded expectations. Bhumika delivered early. Will use again! Early delivery, high-quality service.",
+    rating: 5,
+    avatar: "BA"
+  }
 ];
 
 export const Testimonials = () => {
