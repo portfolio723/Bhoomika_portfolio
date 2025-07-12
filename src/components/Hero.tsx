@@ -61,7 +61,7 @@ export const Hero = () => {
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 shadow-xl max-w-sm sm:max-w-md lg:max-w-lg w-full mx-2 sm:mx-0">
             <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-3 sm:mb-4 flex items-center gap-2 break-words">
               <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
-              Global Client Network
+              Trusted Globally
             </h3>
             <div className="relative h-32 sm:h-40 md:h-48 lg:h-56 rounded-lg overflow-hidden mb-3 sm:mb-4 w-full">
               <img 
