@@ -40,7 +40,7 @@ const testimonials = [
   {
     name: "Michaelbrown479",
     company: "Creative Agency",
-    text: "Order done as per request and on time. Thanks Bhumika!",
+    text: "Order done as per request and on time. Thanks Bhumika! Prompt and accurate execution.",
     rating: 5,
     avatar: "MB"
   }
