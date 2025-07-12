@@ -38,11 +38,11 @@ const testimonials = [
     avatar: "KS"
   }
   {
-    name: "michaelbrown479",
+    name: "Michaelbrown479",
     company: "Creative Agency",
-    text: "Great communication and goes beyond to help! Will definitely use again. Proactive and supportive.",
+    text: "Order done as per request and on time. Thanks Bhumika!",
     rating: 5,
-    avatar: "KS"
+    avatar: "MB"
   }
 ];
 
