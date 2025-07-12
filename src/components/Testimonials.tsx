@@ -44,6 +44,13 @@ const testimonials = [
     rating: 5,
     avatar: "MB"
   }
+  {
+    name: "Brian Alexanda2",
+    company: "Creative Agency",
+    text: "Order done as per request and on time. Thanks Bhumika! Prompt and accurate execution.",
+    rating: 5,
+    avatar: "MB"
+  }
 ];
 
 export const Testimonials = () => {
