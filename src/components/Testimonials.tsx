@@ -47,9 +47,9 @@ const testimonials = [
   {
     name: "Brian Alexanda2",
     company: "Creative Agency",
-    text: "Order done as per request and on time. Thanks Bhumika! Prompt and accurate execution.",
+    text: "First order exceeded expectations. Bhumika delivered early. Will use again! Early delivery, high-quality service.",
     rating: 5,
-    avatar: "MB"
+    avatar: "BA"
   }
 ];
 
