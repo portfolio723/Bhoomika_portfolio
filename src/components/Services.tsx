@@ -35,7 +35,7 @@ const services = [
   {
     icon: Settings,
     title: "SaaS MVP Build",
-    description: "Unique Notion tools, Figma exports, or no-code dashboards",
+    description: "Custom web app with login/auth, onboarding, dashboard, and scalable backend. Built for early-stage startups.",
     color: "text-gray-600"
   }
 ];
