@@ -61,7 +61,6 @@ export const Contact = () => {
                   Contact Number
                 </label>
                 <div className="flex w-full">
-                  <select className="px-2 sm:px-3 md:px-4 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg max-h-40 sm:max-h-48 overflow-y-auto">
                   <select className="w-32 sm:w-40 md:w-48 px-1 sm:px-2 md:px-3 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-xs sm:text-sm md:text-base max-h-40 sm:max-h-48 overflow-y-auto flex-shrink-0">
                     <option value="+93">🇦🇫 +93 Afghanistan</option>
                     <option value="+355">🇦🇱 +355 Albania</option>
@@ -400,6 +399,3 @@ export const Contact = () => {
       </div>
     </section>
   );
-};
-  )
-}
