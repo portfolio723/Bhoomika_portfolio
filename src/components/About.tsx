@@ -37,7 +37,7 @@ export const About = () => {
               Trusted Globally
             </h3>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-              Trusted by clients worldwide, I believe exceptional digital products are built through collaboration, trust, and attention to detail  and that’s exactly what I bring to every client relationship.
+              I’ve successfully delivered projects in 11 countries, including:
             </p>
           </div>
           
