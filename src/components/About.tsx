@@ -1,47 +1,59 @@
 import React from 'react';
-import { MapPin, Users, Globe, Award } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 export const About = () => {
   return (
-    <section id="about" className="py-8 sm:py-12 md:py-16 lg:py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
+    <section id="about" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
-        <div className="text-center mb-8 sm:mb-12 md:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
+        {/* About Me Header */}
+        <div className="text-center mb-12 sm:mb-16 md:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8">
             About <span className="text-violet-600 dark:text-violet-400">Me</span>
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions — from responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages.
-
-Every project I build is driven by two core principles: clarity in design and precision in execution. I work with a powerful tech stack including :
-React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it's:
-
-- A clean business website
-- A feature-rich SaaS dashboard
-- A sales-driven Shopify store
-- Or a sleek personal portfolio
-
-I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
-          </p>
         </div>
 
-        
-        {/* Global Client Network Map */}
-        <div className="bg-white dark:bg-gray-700 rounded-2xl p-6 sm:p-8 md:p-10 shadow-lg">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 flex items-center gap-2">
-            <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
-            Global Client Network
-          </h3>
-          <div className="relative h-32 sm:h-40 md:h-48 lg:h-56 rounded-lg overflow-hidden mb-4 sm:mb-6 w-full">
-            <img 
-              src="/image 1 copy.jpg" 
-              alt="Global Client Network Map" 
-              className="w-full h-full object-contain max-w-full"
-            />
+        {/* About Content - 3 Paragraphs */}
+        <div className="max-w-4xl mx-auto mb-16 sm:mb-20 md:mb-24">
+          <div className="space-y-6 sm:space-y-8 text-center">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
+              I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions.
+            </p>
+            
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
+              From responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages — every project I build is driven by two core principles: clarity in design and precision in execution.
+            </p>
+            
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
+              I work with a powerful tech stack including React.js, Next.js, Framer, WordPress, Shopify, and Supabase to deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
+            </p>
           </div>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
-            Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea. 
-            I believe exceptional digital products are built through collaboration, trust, and attention to detail — and that's exactly what I bring to every client relationship.
-          </p>
+        </div>
+
+        {/* Global Client Network Map - Centered */}
+        <div className="bg-white dark:bg-gray-700 rounded-2xl p-8 sm:p-10 md:p-12 shadow-lg">
+          <div className="text-center mb-8 sm:mb-10">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 flex items-center justify-center gap-3">
+              <MapPin className="text-violet-600 dark:text-violet-400" size={32} />
+              Global Client Network
+            </h3>
+          </div>
+          
+          <div className="flex justify-center mb-8 sm:mb-10">
+            <div className="relative w-full max-w-2xl h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden">
+              <img 
+                src="/image 1 copy.jpg" 
+                alt="Global Client Network Map" 
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+              Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea. 
+              I believe exceptional digital products are built through collaboration, trust, and attention to detail — and that's exactly what I bring to every client relationship.
+            </p>
+          </div>
         </div>
       </div>
     </section>
