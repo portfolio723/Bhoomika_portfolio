@@ -20,7 +20,7 @@ I'm a Full-Stack Web Developer who transforms ideas into high-performing digital
             </p>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              From responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages — every project I build is driven by two core principles: clarity in design and precision in execution.
+              Every project I build is driven by two core principles: clarity in design and precision in execution. I work with a powerful tech stack including React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it’s:
             </p>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
