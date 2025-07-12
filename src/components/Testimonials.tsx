@@ -23,6 +23,8 @@ const testimonials = [
     rating: 5,
     avatar: "DC"
   }
+  ,
+  {
   {
     name: "Insp Insights",
     company: "Creative Agency",
@@ -30,6 +32,8 @@ const testimonials = [
     rating: 5,
     avatar: "II"
   }
+  ,
+  {
   {
     name: "Katastrophicbtz",
     company: "Creative Agency",
@@ -37,6 +41,8 @@ const testimonials = [
     rating: 5,
     avatar: "KS"
   }
+  ,
+  {
   {
     name: "Michaelbrown479",
     company: "Creative Agency",
@@ -44,6 +50,8 @@ const testimonials = [
     rating: 5,
     avatar: "MB"
   }
+  ,
+  {
   {
     name: "Brian Alexanda2",
     company: "Creative Agency",
@@ -51,6 +59,8 @@ const testimonials = [
     rating: 5,
     avatar: "BA"
   }
+  ,
+  {
   {
     name: "Mikkyli",
     company: "Creative Agency",
