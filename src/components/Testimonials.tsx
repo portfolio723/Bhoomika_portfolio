@@ -17,11 +17,11 @@ const testimonials = [
     avatar: "BH"
   },
   {
-    name: "Emily Rodriguez",
+    name: "Designwithcalm",
     company: "Creative Agency",
-    text: "Working with Bhoomika was a game-changer. She delivered a SaaS platform that perfectly matched our needs and timeline.",
+    text: "Very good communication. Highly recommended to work with!",
     rating: 5,
-    avatar: "ER"
+    avatar: "DC"
   }
 ];
 
