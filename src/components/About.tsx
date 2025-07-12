@@ -24,7 +24,12 @@ I'm a Full-Stack Web Developer who transforms ideas into high-performing digital
             </p>
             
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              I work with a powerful tech stack including React.js, Next.js, Framer, WordPress, Shopify, and Supabase to deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
+- A clean business website
+- A feature-rich SaaS dashboard
+- A sales-driven Shopify store
+- Or a sleek personal portfolio
+
+I deliver systems that are not only beautiful — but **blazing-fast, SEO-friendly, and built to scale**.
             </p>
           </div>
         </div>
