@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Sirplusgamer",
     company: "TechStart Inc.",
-    text: "Great guy to work with. Highly recommended.",
+    text: "Great guy to work with. Highly recommended. Excellent communication, accurate service.",
     rating: 5,
     avatar: "SG"
   },
