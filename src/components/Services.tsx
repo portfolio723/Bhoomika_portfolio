@@ -21,12 +21,6 @@ const services = [
     color: "text-yellow-600"
   },
   {
-    icon: Database,
-    title: "SaaS & Dashboards",
-    description: "Full-stack tools with admin panels, CRMs, and login flows",
-    color: "text-violet-600"
-  },
-  {
     icon: FileText,
     title: "Landing Page Funnel",
     description: "High-converting single-page sites with lead forms, chat integration, and analytics. Best for ads, creators, and coaches.",
