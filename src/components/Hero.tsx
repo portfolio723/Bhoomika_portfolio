@@ -33,7 +33,9 @@ export const Hero = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 md:mb-8 leading-tight break-words">
             Hi, I'm <span className="text-violet-600 dark:text-violet-400">Bhoomika</span>
           </h1>
-          
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-6 sm:mb-8 md:mb-10 break-words max-w-4xl mx-auto">
+            Canada, Toranto.
+          </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center w-full max-w-md mx-auto">
   <button 
