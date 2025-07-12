@@ -54,7 +54,7 @@ const testimonials = [
   {
     name: "Mikkyli",
     company: "Creative Agency",
-    text: "Simply the best! Delivered beyond expectations. I’ll always come back!",
+    text: "Simply the best! Delivered beyond expectations. I’ll always come back! Exceeded expectations, very reliable.",
     rating: 5,
     avatar: "MK"
   }
