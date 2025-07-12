@@ -10,11 +10,11 @@ const testimonials = [
     avatar: "SG"
   },
   {
-    name: "Michael Chen",
+    name: "Benhuebner",
     company: "E-commerce Solutions",
-    text: "The Shopify store Bhoomika built for us increased our conversion rate by 40%. Incredible work and professional service throughout.",
+    text: "Well done! Thanks. Attention to detail and professional work.",
     rating: 5,
-    avatar: "MC"
+    avatar: "BH"
   },
   {
     name: "Emily Rodriguez",
