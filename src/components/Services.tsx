@@ -10,8 +10,8 @@ const services = [
   },
   {
     icon: ShoppingCart,
-    title: "E-commerce Stores",
-    description: "Shopify/WooCommerce builds with product setup, payment & shipping",
+    title: "Business Pro Website",
+    description: "Up to 10 pages with blog, analytics, WhatsApp integration, and on-page SEO. Ideal for consultants and growing teams.",
     color: "text-green-600"
   },
   {
