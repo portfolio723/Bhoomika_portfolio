@@ -60,6 +60,9 @@ export const Hero = () => {
               <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
               Trusted Globally
             </h3>
+            <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 text-center leading-relaxed break-words">
+              I’ve successfully delivered projects in 11 countries, including: 
+            </p>
             <div className="relative h-32 sm:h-40 md:h-48 lg:h-56 rounded-lg overflow-hidden mb-3 sm:mb-4 w-full">
               <img 
                 src="/image 1 copy.jpg" 
