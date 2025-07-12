@@ -16,8 +16,8 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Landing Pages",
-    description: "One-page, conversion-first funnels for creators, ads & campaigns",
+    title: "E-Commerce Store",
+    description: "Setup with Shopify/WooCommerce, 10–30 products, secure payments, discount codes, and optimized mobile checkout.",
     color: "text-yellow-600"
   },
   {
