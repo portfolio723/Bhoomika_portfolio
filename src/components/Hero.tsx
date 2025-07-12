@@ -53,28 +53,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Right Content - Global Client Network */}
-        <div className="flex justify-center lg:justify-end">
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 shadow-xl max-w-sm sm:max-w-md lg:max-w-lg w-full mx-2 sm:mx-0">
-            <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-3 sm:mb-4 flex items-center gap-2 break-words">
-              <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
-              Trusted Globally
-            </h3>
-            <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 text-center leading-relaxed break-words">
-              I’ve successfully delivered projects in 11 countries, including: 
-            </p>
-            <div className="relative h-32 sm:h-40 md:h-48 lg:h-56 rounded-lg overflow-hidden mb-3 sm:mb-4 w-full">
-              <img 
-                src="/image 1 copy.jpg" 
-                alt="Global Client Network Map" 
-                className="w-full h-full object-contain max-w-full"
-              />
-            </div>
-            <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 text-center leading-relaxed break-words">
-              Trusted by clients worldwide, I believe exceptional digital products are built through collaboration, trust, and attention to detail  and that’s exactly what I bring to every client relationship. 
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
