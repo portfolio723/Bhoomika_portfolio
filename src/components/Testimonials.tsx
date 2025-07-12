@@ -22,49 +22,39 @@ const testimonials = [
     text: "Very good communication. Highly recommended to work with! Clear and smooth collaboration.",
     rating: 5,
     avatar: "DC"
-  }
-  ,
-  {
+  },
   {
     name: "Insp Insights",
     company: "Creative Agency",
     text: "Very fast delivery and as described. Easy transaction. Speedy delivery, smooth experience.",
     rating: 5,
     avatar: "II"
-  }
-  ,
-  {
+  },
   {
     name: "Katastrophicbtz",
     company: "Creative Agency",
     text: "Great communication and goes beyond to help! Will definitely use again. Proactive and supportive.",
     rating: 5,
     avatar: "KS"
-  }
-  ,
-  {
+  },
   {
     name: "Michaelbrown479",
     company: "Creative Agency",
     text: "Order done as per request and on time. Thanks Bhumika! Prompt and accurate execution.",
     rating: 5,
     avatar: "MB"
-  }
-  ,
-  {
+  },
   {
     name: "Brian Alexanda2",
     company: "Creative Agency",
     text: "First order exceeded expectations. Bhumika delivered early. Will use again! Early delivery, high-quality service.",
     rating: 5,
     avatar: "BA"
-  }
-  ,
-  {
+  },
   {
     name: "Mikkyli",
     company: "Creative Agency",
-    text: "Simply the best! Delivered beyond expectations. I’ll always come back! Exceeded expectations, very reliable.",
+    text: "Simply the best! Delivered beyond expectations. I'll always come back! Exceeded expectations, very reliable.",
     rating: 5,
     avatar: "MK"
   }
