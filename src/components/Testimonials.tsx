@@ -23,6 +23,13 @@ const testimonials = [
     rating: 5,
     avatar: "DC"
   }
+  {
+    name: "Insp_Insights",
+    company: "Creative Agency",
+    text: "Very fast delivery and as described. Easy transaction. Speedy delivery, smooth experience.",
+    rating: 5,
+    avatar: "II"
+  }
 ];
 
 export const Testimonials = () => {
