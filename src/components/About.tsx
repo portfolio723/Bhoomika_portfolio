@@ -29,7 +29,7 @@ I'm a Full-Stack Web Developer who transforms ideas into high-performing digital
 - A sales-driven Shopify store
 - Or a sleek personal portfolio
 
-I deliver systems that are not only beautiful — but **blazing-fast, SEO-friendly, and built to scale**.
+I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
             </p>
           </div>
         </div>
