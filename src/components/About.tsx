@@ -31,14 +31,14 @@ export const About = () => {
 
         {/* Global Client Network Map - Centered */}
         <div className="bg-white dark:bg-gray-700 rounded-2xl p-8 sm:p-10 md:p-12 shadow-lg">
-          <div className="text-center mb-8 sm:mb-10">
+          <div className="text-center mb-4 sm:mb-6">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 flex items-center justify-center gap-3">
               <MapPin className="text-violet-600 dark:text-violet-400" size={32} />
               Global Client Network
             </h3>
           </div>
           
-          <div className="flex justify-center mb-8 sm:mb-10">
+          <div className="flex justify-center mb-4 sm:mb-6">
             <div className="relative w-full max-w-2xl h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden">
               <img 
                 src="/image 1 copy.jpg" 
