@@ -30,6 +30,13 @@ const testimonials = [
     rating: 5,
     avatar: "II"
   }
+  {
+    name: "Katastrophicbtz",
+    company: "Creative Agency",
+    text: "Great communication and goes beyond to help! Will definitely use again. Proactive and supportive.",
+    rating: 5,
+    avatar: "II"
+  }
 ];
 
 export const Testimonials = () => {
