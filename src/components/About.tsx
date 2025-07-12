@@ -36,6 +36,9 @@ export const About = () => {
               <MapPin className="text-violet-600 dark:text-violet-400" size={32} />
               Trusted Globally
             </h3>
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+              Trusted by clients worldwide, I believe exceptional digital products are built through collaboration, trust, and attention to detail  and that’s exactly what I bring to every client relationship.
+            </p>
           </div>
           
           <div className="flex justify-center mb-4 sm:mb-6">
