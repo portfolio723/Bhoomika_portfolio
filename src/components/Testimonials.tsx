@@ -35,7 +35,7 @@ const testimonials = [
     company: "Creative Agency",
     text: "Great communication and goes beyond to help! Will definitely use again. Proactive and supportive.",
     rating: 5,
-    avatar: "II"
+    avatar: "KS"
   }
 ];
 
