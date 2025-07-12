@@ -13,7 +13,7 @@ export const About = () => {
             I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions — from responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages.
 
 Every project I build is driven by two core principles: clarity in design and precision in execution. I work with a powerful tech stack including :
-React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it’s:
+React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it's:
 
 - A clean business website
 - A feature-rich SaaS dashboard
@@ -58,50 +58,23 @@ I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly
           </div>
         </div>
 
+        {/* Global Client Network Map */}
         <div className="bg-white dark:bg-gray-700 rounded-2xl p-6 sm:p-8 md:p-10 shadow-lg">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
-            <div>
-              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-                My Journey
-              </h3>
-              <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 leading-relaxed">
-                With over 5 years of experience in full-stack development, I've had the privilege 
-                of working with clients across the globe, from startups to enterprise companies.
-              </p>
-              <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 leading-relaxed">
-                I specialize in creating scalable web applications using modern technologies like 
-                React, Node.js, and cloud platforms. My approach combines technical expertise 
-                with a deep understanding of user experience and business objectives.
-              </p>
-              <div className="flex flex-wrap gap-2 sm:gap-3">
-                {['React', 'Node.js', 'TypeScript', 'AWS', 'MongoDB', 'PostgreSQL'].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-3 sm:px-4 py-1 sm:py-2 bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 rounded-full text-xs sm:text-sm font-medium"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-violet-400 to-purple-600 rounded-2xl p-1">
-                <div className="w-full h-full bg-white dark:bg-gray-800 rounded-xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 bg-violet-100 dark:bg-violet-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Globe className="w-8 h-8 sm:w-10 sm:h-10 text-violet-600 dark:text-violet-400" />
-                    </div>
-                    <h4 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2">
-                      Global Client Network
-                    </h4>
-                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-                      Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 flex items-center gap-2">
+            <MapPin className="text-violet-600 dark:text-violet-400" size={24} />
+            Global Client Network
+          </h3>
+          <div className="relative h-32 sm:h-40 md:h-48 lg:h-56 rounded-lg overflow-hidden mb-4 sm:mb-6 w-full">
+            <img 
+              src="/image 1 copy.jpg" 
+              alt="Global Client Network Map" 
+              className="w-full h-full object-contain max-w-full"
+            />
           </div>
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
+            Trusted by clients across India, USA, UK, Kenya, Namibia, Suriname, Italy, France, Germany, and South Korea. 
+            I believe exceptional digital products are built through collaboration, trust, and attention to detail — and that's exactly what I bring to every client relationship.
+          </p>
         </div>
       </div>
     </section>
