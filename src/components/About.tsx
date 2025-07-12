@@ -34,7 +34,7 @@ export const About = () => {
           <div className="text-center mb-4 sm:mb-6">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 flex items-center justify-center gap-3">
               <MapPin className="text-violet-600 dark:text-violet-400" size={32} />
-              🌍 Trusted Globally
+              Trusted Globally
             </h3>
           </div>
           
