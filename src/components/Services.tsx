@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: FileText,
-    title: "Resume Tools",
+    title: "Landing Page Funnel",
     description: "Resume builders and personal branding platforms",
     color: "text-rose-600"
   },
