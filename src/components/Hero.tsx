@@ -36,9 +36,6 @@ export const Hero = () => {
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-300 mb-3 sm:mb-4 md:mb-6 break-words">
             Full-stack developer and SaaS builder crafting scalable, beautiful web experiences.
           </p>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 mb-4 sm:mb-6 md:mb-8 max-w-2xl mx-auto lg:mx-0 break-words">
-            Blending design with backend logic to deliver sites and platforms that are lightning-fast, SEO-smart, and beautifully responsive.
-          </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start w-full">
             <button 
