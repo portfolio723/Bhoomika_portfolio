@@ -10,9 +10,10 @@ export const About = () => {
             About <span className="text-violet-600 dark:text-violet-400">Me</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a **Full-Stack Web Developer** who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help **startups, creators, and businesses** launch fast, mobile-first, and conversion-optimized solutions — from **responsive websites** to **scalable SaaS platforms**, **e-commerce stores**, and **personal branding pages**.
+            I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions — from responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages.
 
-Every project I build is driven by two core principles: **clarity in design and precision in execution**. I work with a powerful tech stack including **React.js, Next.js, Framer, WordPress, Shopify, and Supabase**. Whether it’s:
+Every project I build is driven by two core principles: **clarity in design and precision in execution**. I work with a powerful tech stack including :
+React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it’s:
 
 - A clean business website
 - A feature-rich SaaS dashboard
