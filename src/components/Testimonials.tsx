@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Designwithcalm",
     company: "Creative Agency",
-    text: "Very good communication. Highly recommended to work with!",
+    text: "Very good communication. Highly recommended to work with! Clear and smooth collaboration.",
     rating: 5,
     avatar: "DC"
   }
