@@ -38,19 +38,20 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center w-full max-w-md mx-auto">
-            <button 
-              onClick={scrollToWork}
-              className="bg-violet-600 text-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 rounded-lg font-medium text-base sm:text-lg md:text-xl hover:bg-violet-700 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl w-full"
-            >
-              View My Work
-            </button>
-            <button 
-              onClick={scrollToContact}
-              className="border-2 border-violet-600 dark:border-violet-400 text-violet-600 dark:text-violet-400 px-6 sm:px-8 md:px-10 py-4 sm:py-5 rounded-lg font-medium text-base sm:text-lg md:text-xl hover:bg-violet-50 dark:hover:bg-violet-900/20 transform hover:-translate-y-1 transition-all duration-300 w-full"
-            >
-              Schedule a Call
-            </button>
-          </div>
+  <button 
+    onClick={scrollToWork}
+    className="bg-violet-600 text-white px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 rounded-lg font-medium text-base sm:text-lg md:text-xl hover:bg-violet-700 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl w-full"
+  >
+    View My Work
+  </button>
+  <button 
+    onClick={scrollToContact}
+    className="border-2 border-violet-600 dark:border-violet-400 text-violet-600 dark:text-violet-400 px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 rounded-lg font-medium text-base sm:text-lg md:text-xl hover:bg-violet-50 dark:hover:bg-violet-900/20 transform hover:-translate-y-1 transition-all duration-300 w-full"
+  >
+    Schedule a Call
+  </button>
+</div>
+
         </div>
       </div>
     </section>
