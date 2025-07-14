@@ -420,16 +420,35 @@ export const Contact = () => {
               </div>
               
               <div>
-                <label htmlFor="budget" className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
+                <label className="block text-sm sm:text-base font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
                   Estimated Budget
                 </label>
-                <input
-                  type="text"
-                  id="budget"
-                  name="budget"
-                  className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
-                  placeholder="$1,000 - $5,000 or your budget range"
-                />
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div>
+                    <label htmlFor="budget-amount" className="block text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 mb-1 sm:mb-2">
+                      Budget Range
+                    </label>
+                    <input
+                      type="text"
+                      id="budget-amount"
+                      name="budget-amount"
+                      className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
+                      placeholder="$1,000 - $5,000"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="budget-type" className="block text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 mb-1 sm:mb-2">
+                      Payment Type
+                    </label>
+                    <input
+                      type="text"
+                      id="budget-type"
+                      name="budget-type"
+                      className="w-full px-3 sm:px-4 md:px-5 py-3 sm:py-4 md:py-5 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-violet-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white text-sm sm:text-base md:text-lg"
+                      placeholder="Per project / Per hour"
+                    />
+                  </div>
+                </div>
               </div>
               
               <button

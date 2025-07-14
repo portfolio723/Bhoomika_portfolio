@@ -95,6 +95,12 @@ export const Projects = () => {
                 <h3 className="text-sm sm:text-base md:text-lg font-semibold text-gray-900 dark:text-white mb-2 break-words">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 flex-1 break-words">{project.description}</p>
                 
+                <div className="mb-3 sm:mb-4">
+                  <span className="text-xs sm:text-sm font-medium text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/20 px-2 sm:px-3 py-1 rounded-full">
+                    Estimated cost: $2,000 - $5,000
+                  </span>
+                </div>
+                
                 <div className="mt-auto">
                   <a 
                     href={project.liveUrl}

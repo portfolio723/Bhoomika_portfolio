@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Check, Plus } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const pricingPlans = [
   {
@@ -103,15 +103,6 @@ const pricingPlans = [
 ];
 
 export const Pricing = () => {
-  const [showMore, setShowMore] = useState({});
-
-  const toggleShowMore = (index) => {
-    setShowMore(prev => ({
-      ...prev,
-      [index]: !prev[index]
-    }));
-  };
-
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -154,7 +145,6 @@ export const Pricing = () => {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{plan.name}</h3>
                 <div className="text-3xl font-bold text-violet-600 dark:text-violet-400 mb-2 flex items-center justify-center gap-1">
                   {plan.price}
-                  <Plus className="w-5 h-5" />
                 </div>
               </div>
               
@@ -165,22 +155,12 @@ export const Pricing = () => {
                     <span className="text-gray-700 dark:text-gray-300">{feature}</span>
                   </li>
                 ))}
-                {showMore[index] && plan.extraFeatures.map((feature, featureIndex) => (
+                {plan.extraFeatures.map((feature, featureIndex) => (
                   <li key={`extra-${featureIndex}`} className="flex items-start gap-3">
                     <Check className="text-violet-600 dark:text-violet-400 w-5 h-5 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700 dark:text-gray-300">{feature}</span>
                   </li>
                 ))}
-                {plan.extraFeatures.length > 0 && (
-                  <li>
-                    <button
-                      onClick={() => toggleShowMore(index)}
-                      className="text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 text-sm font-medium"
-                    >
-                      {showMore[index] ? 'Show Less' : 'Load More'}
-                    </button>
-                  </li>
-                )}
               </ul>
               
               <button 
