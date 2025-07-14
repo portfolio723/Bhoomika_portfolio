@@ -12,24 +12,7 @@ export const About = () => {
           </h2>
         </div>
 
-        {/* About Content - 3 Paragraphs */}
-        <div className="max-w-4xl mx-auto mb-16 sm:mb-20 md:mb-24">
-          <div className="space-y-6 sm:space-y-8 text-center">
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-I'm a Full-Stack Web Developer who transforms ideas into high-performing digital experiences. With a sharp eye for design and a deep understanding of code, I help startups, creators, and businesses launch fast, mobile-first, and conversion-optimized solutions — from responsive websites to scalable SaaS platforms, e-commerce stores, and personal branding pages.
-            </p>
-            
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Every project I build is driven by two core principles: clarity in design and precision in execution. I work with a powerful tech stack including React.js, Next.js, Framer, WordPress, Shopify, and Supabase. Whether it’s:
-            </p>
-            
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-A clean business website. A feature-rich SaaS dashboard. A sales-driven Shopify store Or a sleek personal portfolio
-I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly, and built to scale.
-            </p>
-          </div>
-        </div>
-
+        
         {/* Global Client Network Map - Centered */}
         <div className="bg-white dark:bg-gray-700 rounded-2xl p-8 sm:p-10 md:p-12 shadow-lg">
           <div className="text-center mb-2 sm:mb-3">
