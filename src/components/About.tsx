@@ -5,12 +5,7 @@ export const About = () => {
   return (
     <section id="about" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
-        {/* About Me Header */}
-        <div className="text-center mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8">
-            About <span className="text-violet-600 dark:text-violet-400">Me</span>
-          </h2>
-        </div>
+        
 
         
         {/* Global Client Network Map - Centered */}
