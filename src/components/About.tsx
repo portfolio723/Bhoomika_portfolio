@@ -32,17 +32,17 @@ I deliver systems that are not only beautiful — but blazing-fast, SEO-friendly
 
         {/* Global Client Network Map - Centered */}
         <div className="bg-white dark:bg-gray-700 rounded-2xl p-8 sm:p-10 md:p-12 shadow-lg">
-          <div className="text-center mb-3 sm:mb-4">
+          <div className="text-center mb-2 sm:mb-3">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 flex items-center justify-center gap-3">
               <MapPin className="text-violet-600 dark:text-violet-400" size={32} />
               Trusted Globally
             </h3>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto mb-2">
               I’ve successfully delivered projects in 11 countries, including:
             </p>
           </div>
           
-          <div className="flex justify-center mb-3 sm:mb-4">
+          <div className="flex justify-center mb-2 sm:mb-3">
             <div className="relative w-full max-w-2xl h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden">
               <img 
                 src="/image 1 copy.jpg" 
